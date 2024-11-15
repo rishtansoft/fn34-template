@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.block {
+    margin: 50px auto;
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    
+    
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
